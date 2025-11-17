@@ -1,2 +1,28 @@
-
-/* Your CSS Code here. */
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+	border: solid black;   
+    }
+    .wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .box {                 
+      background-color: lightblue;  
+      border: 15px solid blue;      
+      padding: 50px;            
+      margin: 20px;                
+      color: #000;
+    }
+    .box .demo {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 13px;
+      white-space: normal;
+    }
+    .inner-frame {
+      border: 2px dotted rgba(0,0,0,0.4);
+      padding: 10px;
+      display: inline-block;
+	}
+    }
